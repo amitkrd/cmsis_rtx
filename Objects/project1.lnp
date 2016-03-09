@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\thread.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
+".\objects\rtx_conf_cm.o"
+".\objects\startup_lpc15xx.o"
+".\objects\system_lpc15xx.o"
+--strict --scatter ".\Objects\project1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\project1.map" -o .\Objects\project1.axf

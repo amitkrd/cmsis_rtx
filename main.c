@@ -12,6 +12,8 @@ extern int Init_Thread (void);
  */
 int main (void) {
   osKernelInitialize ();    	// initialize CMSIS-RTOS
+  
+  //console.log("Hellow World");
 
 	
 	 Init_Thread();
